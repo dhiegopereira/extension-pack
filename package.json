@@ -1,0 +1,48 @@
+{
+  "name": "cubos-developer",
+  "displayName": "Cubos Academy Developer",
+  "description": "Extension for use in software development courses",
+  "version": "0.0.5",
+  "publisher": "CubosDeveloper", 
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cubos-academy/cubos-developer-extension-pack"
+  },
+  "license": "MIT",
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [ 
+    "ArturoDent.problems-copy", 
+    "bradlc.vscode-tailwindcss", 
+    "christian-kohler.npm-intellisense", 
+    "christian-kohler.path-intellisense", 
+    "CubosAcademy.cubos-academy", 
+    "dbaeumer.vscode-eslint", 
+    "eamodio.gitlens", 
+    "ecmel.vscode-html-css", 
+    "esbenp.prettier-vscode", 
+    "figma.figma-vscode-extension", 
+    "formulahendry.auto-close-tag", 
+    "formulahendry.auto-rename-tag", 
+    "GitHub.vscode-pull-request-github", 
+    "ms-vscode.live-server", 
+    "ms-vscode.remote-explorer", 
+    "PKief.material-icon-theme",  
+    "SimonSiefke.svg-preview", 
+    "SonarSource.sonarlint-vscode", 
+    "steoates.autoimport",
+    "styled-components.vscode-styled-components",
+    "VisualStudioExptTeam.intellicode-api-usage-examples", 
+    "VisualStudioExptTeam.vscodeintellicode",   
+    "Zignd.html-css-class-completion"
+  ],
+  "settings": {
+    "files.autoSave": "afterDelay", 
+    "editor.fontFamily": "Fira Code"
+  }
+}
